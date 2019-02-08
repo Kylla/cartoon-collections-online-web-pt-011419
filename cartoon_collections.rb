@@ -9,7 +9,7 @@ end
 def summon_captain_planet(planeteer_calls)
  calls.map! {|call| call.capitalize }
   calls.each { |call| puts name +"!" }
-  
+  array.map { |element| element.capitalize + "!" }
 end
 
 def long_planeteer_calls# code an argument here

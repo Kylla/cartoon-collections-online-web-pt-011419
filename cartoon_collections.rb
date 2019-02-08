@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarves)
    puts dlist
 end
 
-def summon_captain_planet(calls)
+def summon_captain_planet(planeteer_calls)
  calls.map! {|call| call.capitalize }
 
 calls.each { |call| puts name }
